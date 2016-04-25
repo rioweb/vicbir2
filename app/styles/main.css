@@ -1,0 +1,363 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+padding: 0;  
+/*
+background: #870000; /* fallback for old browsers */
+/*
+background: -webkit-linear-gradient(to left, #870000 , #190A05); /* Chrome 10-25, Safari 5.1-6 */
+/*
+background: linear-gradient(to left, #870000 , #190A05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+  background-image: url("/imgs/Elegant_Background-6.jpg");               
+}
+.bg1{
+
+}
+.bg2{
+
+  background-image: url("/imgs/Elegant_Background-6.jpg"); 
+}
+.bg3{
+  background-image: url("/imgs/Elegant_Background-5.jpg"); 
+}
+.navbar-inverse{
+
+  background:#000;
+
+}
+.nav ul li a{
+  color:red;
+}
+.navbar{
+
+
+
+ border: none;
+}
+.navbar-inverse{
+  background: none;
+} 
+
+.navbar-inverse .navbar-nav > li > a{
+    color:none;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+  font-size: 17px;
+  font-weight: bold;
+  color:white;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(19,19,19,0.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.4) 0%,rgba(19,19,19,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(19,19,19,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#66131313',GradientType=0 );
+  border-radius: 6px;
+
+  }
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  margin-bottom: 10px;
+  border: none;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border: none;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button 
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+*/
+.container-full-bg {
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  background-position:center;
+  background-size:cover;
+}
+.container-full-bg .container,
+ .container-full-bg .container .jumbotron {
+  height:100%;width:100%;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+.titles{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+}
+.gallery{
+  margin: 10px;  
+  height: 160px;
+  background-repeat: no-repeat;
+  background-position: 100% center ;
+  background-size: cover;
+  background-color: black;
+}
+.carou{
+  max-height: 500px;
+}
+
+#form{
+	
+  float: right;
+margin-top: 15px;
+  
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 1%, rgba(0,0,0,0.5) 49%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 1%,rgba(0,0,0,0.5) 49%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 1%,rgba(0,0,0,0.5) 49%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 );
+
+  
+  border-radius: 15px 0 15px 15px;
+
+}
+
+  .divform{
+  padding-top:5%;
+  padding-bottom:5%;
+  text-align:center;  
+}
+
+input#come{
+  background: white;
+  border: black;
+  width:100%;
+  height:100px;
+  border-radius: 3px 0 3px 3px;
+  vertical-align: top;
+
+}
+
+#asas{cursor:pointer;}
+
+input#namee, input#emaile, input#tele{
+  background-color:white;
+  border:black;
+  width:100%;
+  border-radius: 3px 0 3px 3px;
+  
+}
+
+#submite{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font: bold 14px Arial;
+  cursor: pointer;
+}
+
+#submite:hover{
+  opacity:0.2;
+}
+
+/* Section Videos */
+#scrollvideo{
+  height: 120px;
+  overflow: auto;
+}
+.video{
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #C0C0C0;
+  
+}
+.playbtn{
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+.titulovid{
+  vertical-align: middle;
+  color:white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.enter{
+  border: 2px solid white;
+  
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 46.25%;
+}
+
+.embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Animations*/
+
+ng-view.ng-enter,
+[ng-view].ng-enter{
+  opacity:0;
+  transition: opacity 1.5s;
+}
+ng-view.ng-enter-active,
+[ng-view].ng-enter-active{
+  opacity: 1;
+}
+.galler.ng-enter,
+.galler.ng-leave{
+  transition: opacity .3s; margin-bottom: .5s;
+}
+.galler.ng-enter,
+.galler.ng-leave-active{
+  opacity: 0;
+  margin-bottom: -160px;
+}
+.galler.ng-enter-active{
+  opacity: 1;
+  margin-bottom: 15px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 930px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 0px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .jumbo{
+    height: 100px;
+  }
+}
+
+
+
+/**/
+@keyframes rotateFall {
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper {
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp {
+    from    { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+.ng-enter       { z-index: 8888; }
+    .ng-leave       { z-index: 9999; }
+
+    /* page specific animations ------------------------ */
+
+    /* home -------------------------- */
+    .page-main.ng-enter         { animation: scaleUp 0.5s both ease-in; }
+    .page-main.ng-leave         { transform-origin: 0% 0%; animation: rotateFall 1s both ease-in; }
+
+    /* about ------------------------ */
+    .page-fotos.ng-enter        { animation:slideInRight 0.5s both ease-in; }
+    .page-fotos.ng-leave        { animation:slideOutLeft 0.5s both ease-in; }
+
+    /* contact ---------------------- */
+    .page-contacto.ng-leave      { transform-origin: 50% 50%; animation: rotateOutNewspaper .5s both ease-in; }
+    .page-contacto.ng-enter      { animation:slideInUp 0.5s both ease-in; }
+
+    .page-videos.ng-leave      { transform-origin: 50% 50%; animation: rotateOutNewspaper .5s both ease-in; }
+    .page-videos.ng-enter      { animation:slideInUp 0.5s both ease-in; }
+
+.ingreso{
+  width:100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 10%;
+}
+.ingresito{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  vertical-align: center;
+  margin: 0 auto;
+}
+.ingresito input{
+  margin: 10px;
+}
