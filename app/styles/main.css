@@ -14,14 +14,16 @@ background: -webkit-linear-gradient(to left, #870000 , #190A05); /* Chrome 10-25
 /*
 background: linear-gradient(to left, #870000 , #190A05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 
-  background-image: url("/imgs/Elegant_Background-6.jpg");               
+             
 }
 .bg1{
-
+  background-image: url("/imgs/8.jpg");
+  background-size: cover;
 }
 .bg2{
 
   background-image: url("/imgs/Elegant_Background-6.jpg"); 
+  background-size: cover;
 }
 .bg3{
   background-image: url("/imgs/Elegant_Background-5.jpg"); 

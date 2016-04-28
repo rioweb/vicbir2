@@ -1,0 +1,25 @@
+<div class="container">
+
+<div class="form">
+	<form name="add_photo">
+		<div class="modal-header">
+			<h3 class="modal-title">Insertar foto</h3>
+		</div>
+		<div class="modal-body">
+			<input type="text" class="form-control" name="title" placeholder="Titulo" ng-model="title">
+			<input type="text" class="form-control" name="description" placeholder="Descripcion" ng-model="description">
+			<input type="text" class="form-control" name="image" placeholder="Imagen" ng-model="image">
+			<!--
+			<input type="date" class="form-control" name="fechaCharga" placeholder="yyyy-MM-dd" min="2013-01-01" max="2013-12-31" require ng-model="fechaCharga">-->
+		</div>
+		<div class="modal-footer">
+			<input type="button" class"btn btn-success" name="add_photo" value="Añadir" ng-click="save_photo()" >
+			<button class="btn btn-warning">Cancelar</button>
+		</div>	
+
+	</form>
+
+
+</div>
+
+</div>

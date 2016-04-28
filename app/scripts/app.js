@@ -44,13 +44,12 @@ angular
         templateUrl: 'views/videos.html',
         controller: 'VideosCtrl',
         controllerAs: 'carga'
-      })      .
+      }).
       when('/fotos', {
         templateUrl: 'views/fotos.html',
         controller: 'FotosCtrl',
         controllerAs: 'fotos'
-      })
-      .
+      }).
       when('/contacto', {
         templateUrl: 'views/contacto.html',
         controller: 'ContactoCtrl',
@@ -66,25 +65,14 @@ angular
       templateUrl:'/directives/navbar.html'
     };
   })
-  .controller('navctrl', ['$scope','$location',function($scope,$location){
+  .controller('navctrl', ['$rootScope','$scope','$location',function($rootScope,$scope,$location){
 
       $scope.isActive = function(ab){
         return ab === $location.path(); 
-      };  
+      }; 
+
   }])
-  .controller('Pass',['$scope',function($scope){
-    $scope.chau = true;
-    $scope.hola = false;
-    $scope.alert= false;
-    $scope.chequeo=function(p){
-      if (p==='luis') {
-        $scope.hola=true;
-        $scope.chau = false;
-      }else{
-        $scope.alert= true;
-      }
-    };
-  }])
+  
   .filter('startFrom', function(){
     return function(input,start){
       start = parseInt(start, 9);
